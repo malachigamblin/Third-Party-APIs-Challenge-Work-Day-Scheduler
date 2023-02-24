@@ -1,30 +1,25 @@
-.display-3 {
-  font-family: "Ubuntu";
-}
-
-
-p{
-  font-family: "Lora";
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  line-height: 1;
+  background-color: #000000;
 }
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
+
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #ffffff;
+  border-left: 1px solid rgb(255, 255, 255);
   padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  border-bottom: 10px solid rgb(0, 0, 0);
 }
 
 .description {
@@ -32,17 +27,20 @@ textarea {
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
-  border-top: 1px solid white;
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #000000;
+  color: #ffffff;
+  border-top: 1px dashed #ffffff;
 }
 
 .past {
@@ -61,11 +59,11 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(255, 255, 255);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #ba9ff8;
+  color: rgb(0, 0, 0);
 }
 
 .saveBtn i:hover {
