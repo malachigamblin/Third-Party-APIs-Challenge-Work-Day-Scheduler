@@ -1,10 +1,12 @@
-var timeDisplayEl = $('#currentDay');
+var todayDate = moment().format("dddd, MMM Do YYYY");
+$("#currentDay").html(todayDate);
 
+$(document).ready(function () {
+  $(".saveBtn").on("click", function () {
+    var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
 
-function displayTime() {
-  var rightNow = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
-  timeDisplayEl.text(rightNow);
-}
+    localStorage.setItem(time, text);
+  });
+});
 
-displayTime();
-setInterval(displayTime, 1000);

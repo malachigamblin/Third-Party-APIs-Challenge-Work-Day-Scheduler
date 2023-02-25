@@ -62,6 +62,7 @@ textarea {
   border-left: 1px solid rgb(255, 255, 255);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  border-color: #000000;
   background-color: #ba9ff8;
   color: rgb(0, 0, 0);
 }
