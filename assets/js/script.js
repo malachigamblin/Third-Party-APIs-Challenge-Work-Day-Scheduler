@@ -8,5 +8,11 @@ $(document).ready(function () {
 
     localStorage.setItem(time, text);
   });
-});
 
+  function timeTracker() {
+    var timeNow = moment().hour();
+  }
+  $(".time-block").each(function () {
+    var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+  });
+});
