@@ -27,4 +27,8 @@ The following screenshot shows off the appication:
 <img width="1512" alt="Screenshot 2023-02-26 at 11 22 30 AM" src="https://user-images.githubusercontent.com/118701306/221708023-6668d638-38f2-46d5-9e61-dcc90ee4ed5e.png">
 
 ## Link
-Deployed aplication: https://malachigamblin.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/
+Deployed aplication: https://malachigamblin.github.io/Work-Day-Scheduler-Challenge/
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
