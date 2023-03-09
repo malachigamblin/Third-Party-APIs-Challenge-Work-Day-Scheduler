@@ -23,7 +23,7 @@ The Ohio State University Coding Boot Camp assigned a homework project to create
 Upon opening the planner, the current day is displayed at the top of the calendar. Users can scroll down to see time blocks for standard business hours, and each time block is color-coded to indicate whether it's in the past, present, or future. Users can enter an event by clicking on a time block and save it by clicking the save button, which saves the text for that event in local storage. The saved events persist even after the page is refreshed.
 
 ## Screenshots
-The following screenshots show off the appication:
+The following screenshot shows off the appication:
 <img width="1512" alt="Screenshot 2023-02-26 at 11 22 30 AM" src="https://user-images.githubusercontent.com/118701306/221708023-6668d638-38f2-46d5-9e61-dcc90ee4ed5e.png">
 
 ## Link
